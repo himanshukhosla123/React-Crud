@@ -33,7 +33,7 @@ $(document).ready(function(){
           localStorage.setItem("id",uid);
           console.log(localStorage.getItem("token"))
           if(localStorage.getItem("token")!=null)  
-          location.href="/index.html";
+          location.href="index.html";
         } else {
         }
       });
